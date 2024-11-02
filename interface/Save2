@@ -463,10 +463,6 @@ local a = {
     return b: New(c, e) end end;
     d.Elements = a;
     function d.CreateWindow(a, a) assert(a.Title, "Window - Missing Title")
-    if a.Title ~ =  "skid" then game: GetService("Players").LocalPlayer: Kick("outdated script version join discord.gg/5Qcz77XKCM")
-    return end;
-
-    if not Services then game: GetService("Players").LocalPlayer: Kick("outdated script version join discord.gg/5Qcz77XKCM")
     return end;
     if d.Window then print "You cannot create more than one window."
     return end;
